@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>沐肤站</title>
+		<link type="image/x-icon"  rel="icon" href="img/bitbug_favicon (1).ico" />
+		<link type="image/x-icon" rel="shortcut icon" href="img/bitbug_favicon (1).ico"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/erji.css"/>
+	</head>
+	<body>
+		<script type="text/javascript" src="js/top.js"></script>
+		<!--banner-->
+		<div class="banner">
+			<h1><img src="img/xx_02.jpg"/></h1>
+		</div>
+		<!--公司形象-->
+		<div id="middle">
+			<div class="m_o">
+				<div class="m_oo" style="padding-top: 20px;">
+					<ul>
+						<li style="margin-top: 15px; width: 680px;"><img src="img/xx_05.jpg"/><br/>
+							<p style="margin-top: 20px;">席卷亚太地区，全维度多元化的润白护肤品牌——<b style="font-size: 28px;">Muskin</b><br/>
+十里春风温暖如你，Muskin依托中国千年传统文化理论，渗透医美高科先进技术。<br/>
+这是一次传统技艺的升华，这是一次智能点燃的火花。</p>
+						</li>
+						<li style="width: 224px; float: right; margin-top: 0;"><img src="img/xx1_05.png"/></li>
+					</ul>
+				</div>
+				<div class="m_tt">
+					<p>引|领|科|技|美|白|潮|流</p>
+				</div>
+			</div>
+			<div class="xx_o" id="xx_o">
+				<ul>
+					<li style="margin-left: 354px;"><a href="" ><img src="img/xx_12.jpg" class="li_a"/></a></li>
+					<li style="margin-left: 27px;"><a href=""><img src="img/xx_09.jpg" class="li_a"/></a></li>
+				</ul>
+				<ul style="background: url(img/xx2_18.jpg) no-repeat center; height: 302px;">
+					<li style="margin-left: 5px;"><a href=""><img src="img/xx_17.jpg" class="li_a"/></a></li>
+					<li style="margin-left: 30px;"><a href=""><img src="img/xx_19.jpg" class="li_a"/></a></li>
+				</ul>
+				<ul style="background: url(img/xx2_19.jpg) no-repeat center; height: 298px;">
+					<li style="margin-left: 352px;"><a href=""><img src="img/xx_22.jpg" class="li_a"/></a></li>
+					<li style="margin-left: 30px;"><a href=""><img src="img/xx_23.jpg" class="li_a"/></a></li>
+				</ul>
+				<ul style="background: url(img/xx2_22.jpg) no-repeat center; height: 301px;">
+					<li style="margin-left: 0;"><a href=""><img src="img/xx_29.jpg" class="li_a"/></a></li>
+					<li style="margin-left: 30px;"><a href="" ><img src="img/xx_27.jpg" class="li_a"/></a></li>
+				</ul>
+				<ul style="background: url(img/xx2_24.jpg) no-repeat center; height: 276px;">
+					<li style="margin-left: 351px;"><a href=""><img src="img/xx_33.jpg" class="li_a"/></a></li>
+				</ul>
+				<ul style="background: url(img/xx2_25.jpg) no-repeat center; height: 199px;">
+				</ul>
+			</div>
+			<script type="text/javascript">
+				var srImg=document.getElementById("xx_o").getElementsByClassName("li_a");
+				for (var i=0;i<srImg.length;i++) {
+					srImg[i].onmouseover=function (){
+						var Nsrc=this.getAttribute("src").split(".");
+						this.setAttribute("src",Nsrc[0]+"01."+Nsrc[1]);
+					}
+					srImg[i].onmouseout=function (){
+						var Nsrc=this.getAttribute("src").split("01");
+						this.setAttribute("src",Nsrc[0]+Nsrc[1]);
+					}
+				}
+			</script>
+		</div>
+		<script type="text/javascript" src="js/footer.js"></script>
+	</body>
+</html>
+                
